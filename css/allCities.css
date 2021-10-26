@@ -1,0 +1,98 @@
+@import url(../navbarFooterStyle.css);
+
+
+header{
+    background-image: linear-gradient(to top right, green , red, white , green , red , green ,red);
+    border-top: 6px solid black;
+}
+
+header:hover{
+    opacity: .85;
+    transform: scale(1.2);
+    transition: 2s ease;
+}
+
+body{
+    overflow-x: hidden;
+}
+
+.section2{
+    background-image: linear-gradient(to top right, #E0BBE4,#A0D7D9,blue, #AE99BF,#FBE7A3,#F4CBA1,indigo, white, grey,  #957DAD,blue, white,
+    #E2A3B4, #D291BC, #FEC8D8, brown , #FFDFD3, blue, green , indigo,#C3E6EA, #F7EFDF, #F7EFDF,white, #E6E0EC, #F7EBEC);
+}
+.section1{ 
+    background-image: linear-gradient(to top right, white,grey,rgba(0, 0, 0, 0.726),white,grey,rgba(0, 0, 0, 0.534),white,grey,black);
+}
+.section3{
+    background-image: linear-gradient(to top right, white,grey,grey, #F7CA8F, #F1B39A, #F9F1D6,#DFBBBB,white, #F7CA8F, #F1B39A, #F9F1D6,#DFBBBB);
+}
+
+.section2:hover{
+    filter:invert(1);
+    transform: translateY(30px);
+    transition: 2s ease;
+}
+
+.section1 a.city-even:hover, .section6 a.city-even:hover,.section7 a.city-even:hover, .section8 a.city-even:hover, .section9 a.city-even:hover, .section10 a.city-even:hover { 
+    transform: scale(1.05) translateY(+25px);
+    opacity: .85;
+    transition: 1s ease;
+}
+
+.section1 a.city-odd:hover, .section6 a.city-odd:hover, .section7 a.city-odd:hover, .section8 a.city-odd:hover, .section9 a.city-odd:hover, .section10 a.city-odd:hover{ 
+    transform: scale(1.05) translateY(-25px);
+    opacity: .88;
+    transition: 1s ease;
+}
+
+.section3 a.city-even:hover, .section4 a.city-even:hover, .section5 a.city-even:hover{
+    transform: scale(1.05) translateY(+25px);
+    opacity: .85;
+    transition: 1s ease;
+}
+
+.section3 a.city-odd:hover, .section4 a.city-odd:hover, .section5 a.city-odd:hover{
+    transform: scale(1.05) translateY(-25px);
+    opacity: .88;
+    transition: 1s ease;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.Icons{
+    background-image: linear-gradient(to top right, white,grey,white,grey);
+}
+ .Icons img:hover{
+    transform: scale(1.1);
+    filter: invert(.5);
+}
+
+.Icons2{
+    background-color: rgba(0, 0, 0, 0.795);
+    filter: invert(1);
+}
+
+.main{
+    background-image: linear-gradient(to top right,#87e0ff, white,grey,brown, #87e0ff, #cc7722 ,white, grey, #F7CA8F, #87e0ff,#cc7722 ,white, #F1B39A, #F9F1D6,#DFBBBB,white, #cc7722 ,
+    #F7CA8F, #F1B39A,white, #F9F1D6,#DFBBBB, #87e0ff,#cc7722 ,#C2B280);
+}
+
+.main:hover{
+    filter: invert(.2);
+    transition: 3s ease;
+}
