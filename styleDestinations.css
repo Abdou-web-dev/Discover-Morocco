@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+
+.northSection{
+    background: url(./assets/images/tangier2.jpg) no-repeat center center/cover;
+}
+
+.carousel-inner h5{
+    font-size: 30px;
+}
+.carousel-inner h5 , .carousel-inner p{
+    color: white;
+    font-size: larger;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.southSection{
+    background: url(./assets/images/desert-bg-img.jpg) no-repeat center center/cover;
+}
+
+
+
+.eastSection{
+    background: url(./assets/images/bg-east.jpg) no-repeat center center/cover;
+
+}
+
+.westSection{
+    background: url(./assets/images/ocean.jpg) no-repeat center center/cover;
+
+}
+
+#north{
+    background-color: rgb(152, 211, 191)
+}
+#north:hover{
+opacity: .85;
+}
+
+#south{
+    background-color: rgb(216, 161, 114);
+}
+#south:hover{
+opacity: .85
+;}
+#east{
+    background-color: rgba(216, 162, 114, 0.767);
+}
+#east:hover{
+        opacity: .85;
+    }
+#west{
+    background-color: #232649 ;
+}
+#west:hover{
+    opacity: .85;
+}
+
+#carousel1 h2, #carousel2 h2,#carousel3 h2, #carousel4 h2{
+    font-size: 40px;
+}
+
+
+#list-aa:before{
+    content: url(/assets/images/mosque.png);
+}
+
+.anchor-lg-north:hover{
+    opacity: .85;
+    transition: .5s;
+    transform: scale(1.05);
+}
+
+.northCities, .southCities, .eastCities, .westCities{
+    font-family: Amiri;
+}
+.northCities p , .southCities p , .eastCities p ,.westCities p{
+    font-size: 20px;
+}
+.northCities span ,.southCities span, .eastCities span, .westCities span{
+    font-size: 20px;
+}
+.northCities button , .southCities button, .eastCities button, .westCities button{
+    font-size: 18px;
+}
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,84 @@
+
+/* designing the text*/
+div.shake{
+	transform: translate(-10%, -10%);
+}
+/*creating the shake animation*/
+	
+div.shake:hover a.anchor22{
+	animation: shake 0.8s ;
+}
+
+@keyframes shake{
+	0%{
+	transform: translateX(0)
+	}
+	25%{
+	transform: translateX(15px);
+	}
+	
+	50%{
+	transform: translateX(-15px);
+	}
+	100%{
+	transform: translateX(0px);
+	}
+}
+
+/* shake */
+
+
+div.shake2{
+	transform: translate(-10%, -10%);
+}
+div.shake2:hover a.first-anchor, div.shake2:hover a.last-anchor{
+	animation: shake2 0.8s ;
+}
+@keyframes shake2{
+	0%{
+	transform: translateX(0)
+	}
+	25%{
+	transform: translateX(50px);
+	}
+	
+	50%{
+	transform: translateX(-50px);
+	}
+	100%{
+	transform: translateX(0px);
+	}
+}
+	
+
+
+/*animation for photos */
+
+div.shake-img{
+	transform: translate(-.2%, -.2%);
+}
+div.shake-img:hover img{
+	animation: shake2 0.8s ;
+}
+
+@keyframes shake-img{
+	0%{
+	transform: translateX(0)
+	}
+	25%{
+	transform: translateX(5px);
+	}
+	
+	50%{
+	transform: translateX(-5px);
+	}
+	100%{
+	transform: translateX(0px);
+	}
+}
+
+	
+
+
+
+

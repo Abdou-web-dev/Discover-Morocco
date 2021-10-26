@@ -1,0 +1,420 @@
+
+section.album-images img.shaked-img{
+  transform: scale(.88);
+} 
+
+/* dark overlay */
+.overlay-black {
+    position: relative;
+    /* background: white; */
+    display: inline-block;
+  }
+  
+  .overlay-black::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: #000;
+    opacity: 0;
+    transition: .5s ease;
+  }
+  
+  .overlay-black:hover::before {
+    opacity: 0.4;
+  }
+ 
+
+  /* overlay blue */
+  .overlay-blue-shades {
+    position: relative;
+    background: white;
+    display: inline-block;
+  }
+  
+  .overlay-blue-shades::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(#3944bc, #63c5da, #1338be, #48aaad, #0492c2, #1f456e, #52b2bf);
+    opacity: 0;
+    transition: .5s ease;
+  }
+  
+  .overlay-blue-shades:hover::before {
+    opacity: 0.45;
+  }
+
+
+  /* overlay red */
+  .overlay-red {
+    position: relative;
+    background: white;
+    display: inline-block;
+  }
+  .overlay-red::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgb(189, 43, 38);
+    opacity: 0;
+    transition: .5s ease;
+  }
+  .overlay-red:hover::before {
+    opacity: 0.4;
+  }
+
+
+  /* overlay grey smoke */
+  .overlay-smoke {
+    position: relative;
+    background: white;
+    display: inline-block;
+  }
+  .overlay-smoke::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: #59515e;
+    opacity: 0;
+    transition: .5s ease;
+  }
+  
+  .overlay-smoke:hover::before {
+    opacity: 0.4;
+  }
+
+
+  /* overlay grey coin */
+  .overlay-coin {
+    position: relative;
+    background: white;
+    display: inline-block;
+  }
+  
+  .overlay-coin::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: #9897a9;
+    opacity: 0;
+    transition: .5s ease;
+  }
+  
+  .overlay-coin:hover::before {
+    opacity: 0.4;
+  }
+
+
+  /*overlay gold*/
+.overlay-gold{
+  position: relative;
+  background: white;
+  display: inline-block;
+}
+
+.overlay-gold::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: #d4af37;
+  opacity: 0;
+  transition: .5s ease;
+}
+
+.overlay-gold:hover::before {
+  opacity: 0.5;
+}
+
+
+/*overlay white*/
+.overlay-white{
+  position: relative;
+  background: white;
+  display: inline-block;
+}
+
+.overlay-white::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: white;
+  opacity: 0;
+  transition: .5s ease;
+}
+
+.overlay-white:hover::before {
+  opacity: 0.3;
+}
+
+
+/*overlay salmon*/
+.overlay-salmon{
+  position: relative;
+  background: white;
+  display: inline-block;
+}
+
+.overlay-salmon::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: salmon;
+  opacity: 0;
+  transition: .5s ease;
+}
+
+.overlay-salmon:hover::before {
+  opacity: 0.35;
+}
+
+
+/* overlay marine green */
+.overlay-marine {
+  position: relative;
+  background: white;
+  display: inline-block;
+}
+.overlay-marine::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: #40a48e;
+  opacity: 0;
+  transition: .5s ease;
+}
+
+.overlay-marine:hover::before {
+  opacity: 0.4;
+}
+
+/* overlay mandarin */
+.overlay-mandarin {
+  position: relative;
+  background: white;
+  display: inline-block;
+}
+.overlay-mandarin::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: #f37a48  ;
+  opacity: 0;
+  transition: .5s ease;
+}
+
+.overlay-mandarin:hover::before {
+  opacity: 0.4;
+}
+
+/* overlay mandarin */
+.overlay-silver {
+  position: relative;
+  background: white;
+  display: inline-block;
+}
+.overlay-silver::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: #C0C0C0  ;
+  opacity: 0;
+  transition: .5s ease;
+}
+
+.overlay-silver:hover::before {
+  opacity: 0.4;
+}
+
+
+/* overlay brown */
+.overlay-brown {
+  position: relative;
+  background: white;
+  display: inline-block;
+}
+.overlay-brown::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(#231709, white) ;
+  opacity: 0;
+  transition: .5s ease;
+}
+.overlay-brown:hover::before {
+  opacity: 0.4;
+}
+
+
+/* overlay brown mix*/
+.overlay-brown-mix {
+  position: relative;
+  background: white;
+  display: inline-block;
+}
+.overlay-brown-mix::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(#231709, white, #234f1e, #028a0f, #5e1916, #60100b) ;
+  opacity: 0;
+  transition: .5s ease;
+}
+.overlay-brown-mix:hover::before {
+  opacity: 0.4;
+}
+
+/* overlay spice-shades*/
+.overlay-spice-shades {
+  position: relative;
+  background: white;
+  display: inline-block;
+}
+.overlay-spice-shades::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(#231709, #60100b, #5a3012, #3f3e44, #283016, #171d09, #d2691e) ;
+  opacity: 0;
+  transition: .5s ease;
+}
+.overlay-spice-shades:hover::before {
+  opacity: 0.4;
+}
+
+/* overlay sand */
+.overlay-sand {
+  position: relative;
+  background: white;
+  display: inline-block;
+}
+.overlay-sand::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: #dac17c ; /* sand castle color*/
+  opacity: 0;
+  transition: .5s ease;
+}
+.overlay-sand:hover::before {
+  opacity: 0.4;
+}
+
+/* overlay sand */
+.overlay-sandmix {
+  position: relative;
+  background: white;
+  display: inline-block;
+}
+.overlay-sandmix::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(#f3dc95 , black, white); /* sand castle color mix*/
+  opacity: 0;
+  transition: .5s ease;
+}
+.overlay-sandmix:hover::before {
+  opacity: 0.4;
+}
+
+
+/* overlay fire flame */
+.overlay-flame {
+  position: relative;
+  background: white;
+  display: inline-block;
+}
+.overlay-flame::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(#ea5104, #470b04, #fca204, #c93204, #8f0f04); /* sand castle color*/
+  opacity: 0;
+  transition: .5s ease;
+}
+.overlay-flame:hover::before {
+  opacity: 0.4;
+}
+
+
+/* overlay violet-shades*/
+.overlay-violet-shades {
+  position: relative;
+  background: white;
+  display: inline-block;
+}
+.overlay-violet-shades::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(#710193, #7a4988, #630436) ;
+  opacity: 0;
+  transition: .5s ease;
+}
+.overlay-violet-shades:hover::before {
+  opacity: 0.4;
+}
+
+
+
+
+
+/* @media screen and (min-width:1475px){
+  section.album-images img{
+    margin-left: 80px;
+  }
+} */
