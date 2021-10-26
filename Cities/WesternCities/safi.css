@@ -95,10 +95,10 @@ nav a.navbar-brand:hover{
 }
 
 /* Code for showing images on hover in the nav */
-
 #navbar1 ul li a {
     position:relative; 
    }
+   
 #navbar1 ul li a span { 
    position:absolute;
     display:none; 
@@ -111,7 +111,31 @@ nav a.navbar-brand:hover{
    position: absolute;
    top: 50px;
    right: -60px;
+}   
+
+@media screen and (max-width:1000px){
+    #navbar1 ul li a {
+        position:relative; 
+       }
+       
+    #navbar1 ul li a span { 
+       position:absolute;
+        display:none; 
+        z-index:99; 
+    }
+    
+    #navbar1 ul li a:hover span { 
+       display:none;
+       transition: 2s ease;
+       position: absolute;
+       top: 50px;
+       right: -60px;
+    }    
 }
+
+
+
+/*home icon */
 #navbar1 ul li a:hover span.home { 
     display:block;
     position: absolute;
