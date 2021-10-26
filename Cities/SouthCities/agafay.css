@@ -1,0 +1,27 @@
+@import url(./Top_footer.css);
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+.section1{
+    background: url(./images/agafay.jpg) no-repeat center center/cover fixed;
+}
+.section1 p:hover{
+    color: white;
+}
+.section1 img:hover{
+    transform: scale(1.4);
+    transition: .6s ease;
+    cursor: pointer;
+}
+
+.buttons_but  .row div div button:hover{
+    transform: scale(1.22);
+    margin-left: 12px;
+    margin-right: 12px;
+    transform: .6s ease;
+    color: white;
+}
+
+.buttons_but .row a{
+    text-decoration: none;
+    color: black;
+}
