@@ -1,19 +1,25 @@
-@import url('https://fonts.googleapis.com/css2?family=Atomic+Age&family=Palette+Mosaic&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Atomic+Age&family=Palette+Mosaic&display=swap');
 
-
+nav .SiteTitle{
+    font-size: 80px;
+    line-height: 0.8;
+    color: grey;
+}
 nav .SiteTitle:before{
     content: url(../assets/images/morocco.png);
     position: relative;
     top: 5px;
 }
+nav .SiteTitle:hover{
+    font-weight: 900;
+    letter-spacing: .1em;
+    transition: .5s;
+    color: white;
+    }
 nav .navitem:hover{
 font-size: 1.3em;
 }
-nav .SiteTitle:hover{
-font-weight: 900;
-letter-spacing: .1em;
-transition: .5s;
-}
+
 .section1{
     background: url(../assets/images/imageedit_2_6213772232.png) no-repeat center center/cover;
     margin-bottom: 15px;
