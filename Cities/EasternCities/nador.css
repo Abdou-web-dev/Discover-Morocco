@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+@import url(../EasternCities/TopFooter.css);
+
+.section1, .section2, .getHome, .city-links, footer{
+    font-family: Maven Pro;
+}
+.city-links{
+    background-color: #edad;
+}
+.section1{
+    background-color: beige;
+}
+.section1:hover{
+    filter: invert(1);
+    margin-bottom: 10px;
+    margin-top: 30px;
+    transition: .6s ease;
+}
+.city-links:hover{
+    transform: scale(1.1);
+    filter: invert(1);
+    transition: .6s ease;
+}
+.tab-pane-1{
+    background-color: #91d3c86e;
+}
+.tab-pane-2{
+    background-color: #b8b8b86b;
+}
+.tab-pane-2:hover, .tab-pane-3:hover{
+filter: invert(1);}
+.tab-pane-3{
+    background-color: #5ecbc7a4;
+}
+.section2:hover{
+    margin-bottom: 10px;
+    transition: .6s ease;
+}
+footer:hover{
+    margin-bottom: 10px;
+    margin-top: 30px;
+    transition: .6s ease;
+}

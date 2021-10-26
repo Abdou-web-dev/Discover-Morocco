@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Marcellus&display=swap');
+@import url(../EasternCities/TopFooter.css);
+
+.section1, .section2, .getHome, .city-links, footer{
+    font-family: Maven Pro;
+    
+}
+.city-links{
+    background-color: #d0a96d;
+}
+.section1{
+    background-color: #9a7131;
+}
+.section1:hover{
+    filter: invert(1);
+    margin-bottom: 10px;
+    margin-top: 30px;
+    transition: .6s ease;
+}
+.city-links:hover{
+    transform: scale(1.1);
+    filter: invert(1);
+    transition: .6s ease;
+}
+.getHome{
+    background-color: #dcbf92;
+}
+.tab-pane-1{
+    background-color: #afaf5e;
+}
+.tab-pane-2{
+    background-color: #d0a96d;
+}
+.tab-pane-3{
+    background-color: #6f9940;
+}
+.tab-pane-4{
+    background-color: #9a7231c9;
+}
+.tab-pane-2:hover, .tab-pane-3:hover{
+filter: invert(1);}
+
+.section2:hover{
+    margin-bottom: 10px;
+    transition: .6s ease;
+}
+footer:hover{
+    margin-bottom: 10px;
+    margin-top: 30px;
+    transition: .6s ease;
+}

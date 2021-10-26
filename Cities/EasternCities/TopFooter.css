@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400;500;600;700;800;900&display=swap');
+
+/* .header:hover{
+    opacity: .9;
+} */
+/* .section1 img:hover{
+    transform: scale(1.4);
+    transition: .6s ease;
+    cursor: pointer;
+} */
+.getHome a:hover{
+    color: black;
+    padding: 20px;
+    transition: .6s ease;
+}
+
+.buttons_anchor .row div div a span.small1{
+    position: relative;
+    top: 8px;
+    font-size: 20px;
+} 
+.tab-pane-4 img:hover, .tab-pane-5 img:hover{
+    transform: scale(1.2);
+    opacity: .88;
+    transition: .6s ease;
+}
+footer{
+    background-color: #ccac93;
+    font-family: Cormorant Garamond;
+}
+footer:hover{
+    background-color: #967963;
+    color: white;
+    font-weight: 700;
+    font-size: larger;
+    transition: .6s ease;
+}
+footer .social_media a i:hover{
+    filter: invert(1);
+}
+
+footer .line{
+    /* width: 800px; */
+    background-color: rgb(0, 0, 0);
+    /* border-radius: 30px; */
+    height : 2px; 
+}
+
+@media screen and (max-width:520){
+    footer .lines div div.line{
+        overflow-x: hidden;
+    }
+}
+
+@media screen and (max-width:1100px){
+    .getHome{
+        font-weight: 700;
+    }
+}
+
+@media screen and (max-width:520){
+    .section2{
+        overflow-x: hidden;
+    }
+}

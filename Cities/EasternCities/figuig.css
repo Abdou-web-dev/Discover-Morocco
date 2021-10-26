@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Marcellus&display=swap');
+@import url(../EasternCities/TopFooter.css);
+
+.section1, .section2, .getHome, .city-links, footer{
+    font-family:Marcellus ;
+}
+
+.city-links{
+    background-color: #c7ad7f;
+}
+.section1{
+    background-color: #afaf5e;
+}
+.section1:hover{
+    filter: invert(.9);
+    margin-bottom: 10px;
+    margin-top: 30px;
+    transition: .6s ease;
+}
+.city-links:hover{
+    transform: scale(1.1);
+    filter: invert(.8);
+    transition: .6s ease;
+}
+.tab-pane-1{
+    background-color: #b8b8b86b;
+}
+.tab-pane-2{
+    background-color: #91d3c86e;
+
+}
+.tab-pane-3{
+    background-color: #afaf5e;
+}
+.tab-pane-4{
+    background-color: #afaf5e;
+}
+.tab-pane-2:hover, .tab-pane-3:hover{
+    filter: invert(1);
+    }
+.section2:hover{
+    margin-bottom: 10px;
+    transition: .6s ease;
+}
+footer:hover{
+    margin-bottom: 10px;
+    margin-top: 30px;
+    transition: .6s ease;
+}
+footer .social_media a i:hover{
+    filter: invert(1);
+}
+footer .line{
+    /* width: 800px; */
+    background-color: rgb(0, 0, 0);
+    /* border-radius: 30px; */
+    height : 2px; 
+}
+
+@media screen and (max-width:520){
+    footer .lines div div.line{
+        overflow-x: hidden;
+    }
+}
