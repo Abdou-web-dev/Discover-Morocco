@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url(../navbarFooterStyle.css);
+
+
+.section1{
+    background: url(../assets/images/Carousel-images/North/Asilahpage/Asilah_seafront.jpg) no-repeat scroll center/cover;
+    font-family: Amiri;
+}
+.section2{
+    background: url(../assets/images/Carousel-images/North/Asilahpage/Assilah-1.jpg) no-repeat scroll center/cover;
+    font-family: Amiri;
+}
+
+.Citytitle{
+    font-size: 80px;
+}
+.section3{
+    background: url(../assets/images/Carousel-images/North/Asilahpage/Asilah_shore2.jpg) no-repeat fixed center/cover;
+    font-family: Amiri;
+}
+
+
+.section3 .row1-section3:hover{
+    filter: invert(1);
+    transform: translateX(80px);
+    transition: .5s ease;
+}
+
+
+.previousNextButtons{
+    background-color:rgba(0, 0, 0, 0.767);
+  }
+
+  .previousNextButtons:hover{
+    background-color:rgba(0, 0, 0, 0.849);
+  }
+
+  .previousNextButtons a{ 
+    color: white;
+  }
+   .previousNextButtons a:hover{
+    color: #c2b280;
+  }
+
+
+
+@media screen and (max-width:500px){
+    .section1 .Citytitle{
+        font-size: 60px;
+    }
+}

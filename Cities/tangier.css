@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url(../navbarFooterStyle.css);
+
+.section1{
+    background: url(../assets/images/Carousel-images/North/Tangierpage/hafacafe.jpg) no-repeat center center/cover fixed;
+}
+.section1:hover{
+    filter: invert(1);
+}
+
+.section2{
+    background: url(../assets/images/Carousel-images/North/Tangierpage/tangier-american-legation-museum.jpg) no-repeat center center/cover fixed;   
+    font-family: Amiri;
+    font-weight: 700;
+}
+.section3{
+    background: url(../assets/images/Carousel-images/North/Tangierpage/grandSocco.jpg) no-repeat center center/cover fixed;   
+    font-family: Amiri;
+    font-weight: 700;
+    
+}
+.section4{
+    background: url(../assets/images/Carousel-images/North/Tangierpage/marinaBay.jpg) no-repeat center center/cover fixed;   
+    font-family: Amiri;
+    font-weight: 700;
+}
+.section5{
+    background: url(../assets/images/Carousel-images/North/Tangierpage/MandoubiaGarden.jpg) no-repeat center center/cover fixed;   
+    font-family: Amiri;
+    font-weight: 700;
+}
+.section6{
+    background: url(../assets/images/Carousel-images/North/Tangierpage/GrandMosque.jpg) no-repeat center center/cover fixed;   
+    font-family: Amiri;
+    font-weight: 700;
+}
+.section7{
+    background: url(../assets/images/Carousel-images/North/Tangierpage/Parc-Perdicaris.jpg) no-repeat center center/cover fixed;   
+    font-family: Amiri;
+    font-weight: 700;
+}
+
+.section7:hover, nav:hover, footer:hover{
+    filter: invert(1);
+    transition: 3s ease;
+}
+
+.attract:hover{
+    filter: invert(.2);
+    transform: scale(1.05);
+    transition: .6s ease;
+}
+
+.SectionNextPrevtBtn{
+    background-color:rgba(0, 0, 0, 0.767);
+  }
+  .SectionNextPrevtBtn:hover{
+    background-color:rgba(0, 0, 0, 0.849);
+  }
+  .SectionNextPrevtBtn .previousNextButton{
+    color: white;
+  }
+   .SectionNextPrevtBtn .previousNextButton:hover{
+    color: #c2b280;
+  }
+  

@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url(../navbarFooterStyle.css);
+
+.section1{
+    background: url(../assets/images/Carousel-images/North/jebhaPage/Capture.PNG) no-repeat center center/cover fixed;
+    font-family: Amiri;
+}
+
+.section1:hover{
+    font-weight: bold;
+    opacity: .9;
+    transition: 2s ease;
+}
+
+.section2{
+    background-color:#f2f3f467 ;
+    font-family: Amiri;
+}
+
+.section2:hover{
+    background: url(../assets/images/Carousel-images/North/jebhaPage/jebha.jpeg) no-repeat center center/cover fixed;
+    font-weight: bolder;
+}
+
+.SectionNextPrevtBtn{
+    background-color:rgba(0, 0, 0, 0.767);
+  }
+  .SectionNextPrevtBtn:hover{
+    background-color:rgba(0, 0, 0, 0.849);
+  }
+  .SectionNextPrevtBtn .previousNextButton{
+    color: white;
+  }
+   .SectionNextPrevtBtn .previousNextButton:hover{
+    color: #c2b280;
+  }
+  

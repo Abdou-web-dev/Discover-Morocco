@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Antic+Slab&display=swap');
+@import url(../navbarFooterStyle.css);
+
+
+.section1{
+    background: url(../assets/images/Carousel-images/north/casapage/20210620_170416.jpg) ;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.section1 .casaName{
+    font-family: Dancing Script;
+    font-size: 150px;
+}
+.section1 .casaName:hover{
+    color: white;
+}
+.section1 .paragraphs-left p{
+    font-family: Antic Slab;
+}
+.section2{
+    background: url(../assets/images/Carousel-images/north/casapage/morocco-2435391_1920.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.section2, .section3{
+    font-family: Antic slab;
+}
+.section2 p{
+    font-family: Antic slab;
+}
+.section2:hover {
+    opacity: .9;
+}
+.section2 ul li button:hover{
+    color: white;
+    background-color: rgb(50, 50, 139);
+}
+.section2 .tab-content img:nth-child(1):hover{
+    transform: scale(1.04);
+    transition: .5s ease-in;
+}
+.section3{
+    background: url(../assets/images/Carousel-images/North/casaPage/port-3974801_1280.jpg) ;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.section3 .section3-div1:hover{
+    color: white;
+    background-color: rgb(83, 72, 72);
+}
+.section3 .section3-div2:hover{
+    color: white;
+    background-color: rgb(139, 103, 82);
+}
+.section3 .section3-div3:hover{
+    color: white;
+    background-color: rgb(156, 146, 122);
+}
+.section3 .section3-div4:hover{
+    color: white;
+    background-color: rgb(131, 136, 106);
+}
+.section3 .section3-div5:hover{
+    color: white;
+    background-color: rgb(95, 119, 139);
+}
+.section3 .section3-div6:hover{
+    color: white;
+    background-color: rgb(86, 129, 120);
+}
+.section3 .section3-div7:hover{
+    color: white;
+    background-color: rgb(75, 58, 94);
+}
+
+#offcanvasExample{
+    background: url(../assets/images/Carousel-images/North/chefchaouenpage/Maroc.jpg) no-repeat scroll center/cover ;
+    font-family:Amiri ;
+}
+
+.OffcanvasButton{
+    background-color: #016064;
+    font-family: Amiri;
+    }
+.OffcanvasButton:hover{
+    background-color:#fff ;
+    color: black;
+    font-size: larger;
+    font-weight: bolder;
+    font-variant: small-caps;
+}
+
+.offcanvas .dropdown-toggle:hover{ /**see cities button */
+background-color: black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:1500px){
+    .section1 .casaName{
+        font-size: 130px;
+    }
+}
+@media screen and (max-width:1300px){
+    .section1 .casaName{
+        font-size: 110px;
+    }
+}
+@media screen and (max-width:1100px){
+    .section1 .casaName{
+        font-size: 100px;
+    }
+}
+@media screen and (max-width:450px){
+    .section1 .casaName{
+        font-size: 85px;
+    }
+}

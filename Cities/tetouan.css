@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url(../navbarFooterStyle.css);
+
+.section1{
+    background: url(../assets/images/Carousel-images/North/tetouanPage/tetouane.jpg) no-repeat center center/cover fixed;
+}
+
+.grad {
+    background-image: linear-gradient(to top left, blue , white, yellow, black,  blue, pink, white);
+    opacity: .8;
+}
+.grad #grad-h1{
+    font-weight: bold !important;
+    font-variant: small-caps ;
+    color: white;
+}
+
+.grad:hover{
+    filter: invert(1);
+    transform: scale(1.05);
+    transition: .6s ease;
+}
+
+.section2:hover, .section3:hover, .section4:hover,.section5:hover,.section6:hover, .section7:hover{
+    color: white;
+    font-weight: 700;
+}
+
+.section2{
+    background: url(../assets/images/Carousel-images/North/tetouanPage/Medina_de_Tetouan_Nov2020_016.jpg) no-repeat center center/cover fixed;
+}
+
+.section3{
+    background: url(../assets/images/Carousel-images/North/tetouanPage/feddanPark.jpg) no-repeat center center/cover fixed;
+}
+
+.section4{
+    background: url(../assets/images/Carousel-images/North/tetouanPage/darElOddi.jpg) no-repeat center center/cover fixed;
+}
+
+.section5{
+    background: url(../assets/images/Carousel-images/North/tetouanPage/Iglesia\ de\ Bacturia.jpg) no-repeat center center/cover fixed;
+}
+
+.SectionNextPrevtBtn{
+    background-color:rgba(0, 0, 0, 0.767);
+  }
+  .SectionNextPrevtBtn:hover{
+    background-color:rgba(0, 0, 0, 0.849);
+  }
+  .SectionNextPrevtBtn .previousNextButton{
+    color: white;
+  }
+   .SectionNextPrevtBtn .previousNextButton:hover{
+    color: #c2b280;
+  }
+  

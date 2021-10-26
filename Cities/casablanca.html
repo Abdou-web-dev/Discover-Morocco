@@ -1,0 +1,670 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    <title>CASABLANCA</title>
+    <link rel="stylesheet" href="casa.css">
+
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-md bg-dark navbar-dark pt-5 pb-4" id="NavigationMenu">
+        <div class="container-xxl">
+            <!-- navbar brand / title -->
+            <a class="navbar-brand" href="../index.html">
+                <span class="text-secondary fw-bold fs-3 SiteTitle">
+                    Welcome to Morocco
+                </span>
+            </a>
+            <!-- toggle button for mobile nav -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main-nav"
+                aria-controls="main-nav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!-- navbar links -->
+            <div class="collapse navbar-collapse justify-content-end align-center" id="main-nav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link text-white navitem" href="../DiscoverMorocco.html">DISCOVER MOROCCO</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link navitem" href="../destinations.html">DESTINATIONS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link navitem" href="../Experiences.html">EXPERIENCES</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link navitem" href="../Travel-ideas.html">TRAVEL IDEAS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link navitem" href="../practicalInfo.html">PRACTICAL INFORMATIONS</a>
+                    </li>
+
+
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section class="section1 mb-3 ">
+
+        <!--Offcanvas menu for the cities-->
+        <!-- OffcanvasButton -->
+        <div class="text-center">
+            <a class="btn btn-secondary px-2 py-2 mt-3 OffcanvasButton" data-bs-toggle="offcanvas"
+                href="#offcanvasExample" role="button" aria-controls="offcanvasExample">
+                <span class="fs-5"> Discover Other Moroccan <br> cities</span>
+            </a>
+        </div>
+
+        <!-- the offcanvas -->
+        <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample"
+            aria-labelledby="offcanvasExampleLabel">
+            <div class="offcanvas-header">
+                <button type="button" class="btn-close text-reset mt-2" data-bs-dismiss="offcanvas" aria-label="Close"
+                    style="background-color: white;transform: scale(1.2);"></button>
+            </div>
+            <div class="offcanvas-body">
+                <div class="text-white fs-3 text-center fw-bold">
+                    Here are some other cities that you can discover :
+                </div>
+                <div class="dropdown mt-3 text-center">
+                    <button class="btn btn-secondary dropdown-toggle mt-4 px-3 py-3 fs-3" type="button"
+                        id="dropdownMenuButton" data-bs-toggle="dropdown">
+                        See cities </button>
+                    <ul class="dropdown-menu " aria-labelledby="dropdownMenuButton">
+                        <li><a class="dropdown-item" href="/Website_morocco/Cities/casablanca.html">Casablanca </a></li>
+                        <li><a class="dropdown-item" href="SouthCities/kech.html">Marrakech</a></li>
+                        <li><a class="dropdown-item" href="/Website_morocco/Cities/Meknes.html">Meknes </a></li>
+                        <li><a class="dropdown-item" href="/Website_morocco/Cities/fez.html">Fez </a></li>
+                        <li><a class="dropdown-item" href="SouthCities/agafay.html">Agafay </a></li>
+                        <li><a class="dropdown-item" href="EasternCities/erfoud.html">Erfoud </a></li>
+                        <li><a class="dropdown-item" href="/Website_morocco/Cities/chefchaouen.html">Chefchaouen </a></li>
+                        <li><a class="dropdown-item" href="EasternCities/errachidia.html">Errachidia </a></li>
+                        <li><a class="dropdown-item" href="/Website_morocco/Cities/Tangier.html">Tangier </a></li>
+                        <li><a class="dropdown-item" href="WesternCities/western_morocco.html">Safi </a></li>
+                        <li><a class="dropdown-item" href="WesternCities/western_morocco.html">Mohammedia </a></li>
+                        <li><a class="dropdown-item" href="WesternCities/western_morocco.html">Oualidia </a></li>
+                        <li><a class="dropdown-item" href="/Website_morocco/Cities/Asilah.html">Asilah </a></li>
+                        <li><a class="dropdown-item" href="EasternCities/aoufous.html">Aoufous </a></li>
+                        <li><a class="dropdown-item" href="EasternCities/merzouga.html">Merzouga </a></li>
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="container xxl">
+            <div class="row justify-content-center align-items-center g-5">
+                <div class="col-12 col-md-12 col-lg-10 col-xl-7 paragraphs-left">
+                    <p class="mt-5 fw-bold lh-lg fs-5">
+                        Casablanca is the largest city in Morocco with a population of nearly four million. In addition
+                        to being the
+                        financial and economic capital of the kingdom, it is also the largest city in the Maghreb. The
+                        original site saw
+                        the construction of the ancient city by the Berbers near the city of Anfa, or even confused with
+                        this small city
+                        known since Roman times. The Portuguese destroyed the city in 1468 and it was they who rebuilt
+                        the city they
+                        called "Casabanca" or "white house" but this famous name will only be diffused by the Spaniards
+                        from 1781.
+                    <p class="lh-lg fs-5">Closer to us, from 1907 , and for nearly fifty years, the city was placed
+                        under the French
+                        protectorate and the
+                        largest port in Morocco was built, architects of Western training began to embellish the city
+                        gradually
+                        transforming Casablanca into a showcase of urban modernity.
+                        Visitors will not fail to marvel at this double-headed city, between traditional architecture
+                        and a showcase of
+                        architectural modernity on the Atlantic shore. We taste this freshness with a certain
+                        fascination: a very Western city in Africa with its social contrasts too well known to be hidden
+                        and an excess of
+                        construction in an
+                        almost global city.</p>
+                    <p class="text-muted lh-lg fs-5"> Nevertheless, the oceanic climate makes life sweet in Casablanca
+                        where the
+                        thermometer never
+                        displays more than 30 ° C, which, in this multimillionaire metropolis, is a significant comfort.
+                        Casablanca is also one of the largest trading and fishing ports in the kingdom, since nearly
+                        three-quarters of
+                        the entire kingdom's trade passes through its port. The city is also first in university
+                        matters, in business,
+                        and its transport routes have been facilitated. Indeed, it is easy to go to Casablanca, but the
+                        visitor will be
+                        amazed at the contrast between this incredible ease of getting to the first city of Morocco, and
+                        this crazy maze
+                        of nameless streets where the locals in a hurry drive fast, living in a hellish train,
+                        reminiscent of New York,
+                        London, Paris. Going to Casablanca is therefore to visit a future city-world, where, as always
+                        in Morocco, the
+                        contrasts of a wild, original beauty mingle, between modernity and tradition, mastery and chaos,
+                        but in the
+                        image of man.</p>
+                    <p class="text-muted lh-lg fs-5"> Casablanca is therefore a very popular destination which mixes
+                        Western art with Moroccan art and
+                        which literally
+                        opens up to modernity. The visitor is charmed as much by its modernity as by its small typically
+                        Moroccan
+                        spaces.</p>
+                </div>
+                <div class="col-12 col-md-12 col-lg-10 col-xl-5">
+                    <span class="casaName text-end">Casablanca</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section2 my-3">
+        <div class="container xxl">
+            <h1 class="text-center py-5 fw-bold">The must-see places in Casablanca </h1>
+            <p class="lh-lg fs-5">Beautiful palm trees lining its paths, with the Atlantic ocean over the
+                horizon, and large
+                business buildings in every corner : Casablanca is the economic lung of Morocco ; a bustling
+                metropolis. Modern infrastructures are in the middle of charming districts, between Arab-Muslim
+                heritage and legacies of the colonial period. Discover all the possibilities : take a stroll in
+                the medina, which is one of latest medinas built in Morocco, roam through the centre and its
+                art-deco buildings, and join the Hassan II mosque ; the splendid of architecture built on the
+                water.
+            </p>
+            <p class="text-muted lh-lg fs-5 py-5">Let yourself be tempted by the festive side of the city. Take
+                advantage of the cornice,
+                its clubs and festivals too, such as the Casablanca Festival, Jazzablanca or Tremplin
+                L'Boulevard. The coastline, bordered by beaches equipped to suit all your comfort, invites you
+                to experience the most fun activities that will make your stay more enjoyable, from diving, to
+                jet-skiing to boating. The White city, Casablanca, is where culture and serenity activities
+                blend seamlessly.</p>
+        </div>
+
+        <div class="container xxl">
+
+            <div class="row justify-content-center align-items-center">
+                <div class="col-10 col-md-12 col-lg-12">
+                    <ul class="nav nav-pills mb-3 nav-justified" id=" pills-tab" role="tablist">
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link active fs-5" id="pills-mosque-tab" data-bs-toggle="pill"
+                                data-bs-target="#pills-mosque" type="button" role="tab" aria-controls="pills-home"
+                                aria-selected="true">Mosque Hassan II </button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link fs-5" id="pills-mall-tab" data-bs-toggle="pill"
+                                data-bs-target="#pills-mall" type="button" role="tab" aria-controls="pills-profile"
+                                aria-selected="false">Morocco Mall </button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link fs-5" id="pills-corniche-tab" data-bs-toggle="pill"
+                                data-bs-target="#pills-corniche" type="button" role="tab" aria-controls="pills-contact"
+                                aria-selected="false">Ain Diab Corniche</button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link fs-5" id="pills-medina-tab" data-bs-toggle="pill"
+                                data-bs-target="#pills-medina" type="button" role="tab" aria-controls="pills-contact"
+                                aria-selected="false">Old Medina </button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link fs-5" id="pills-habbous-tab" data-bs-toggle="pill"
+                                data-bs-target="#pills-habbous" type="button" role="tab" aria-controls="pills-contact"
+                                aria-selected="false">Habous neighbourhood </button>
+                        </li>
+                    </ul>
+                    <div class="tab-content" id="pills-tabContent">
+                        <div class="tab-pane fade show active" id="pills-mosque" role="tabpanel"
+                            aria-labelledby="pills-home-tab">
+                            <div class="row justify-content-center align-items-center">
+                                <div class="col-md-12 col-lg-8">
+                                    <img src="../assets/images/the-hassan-ii-mosque.jpg" class="img-fluid">
+                                </div>
+                                <div class="col-md-12 col-lg-4">
+                                    <p class="lh-lg pt-2 fs-5">Completed in 1993 and set on a platform overlooking the
+                                        Atlantic
+                                        Ocean, the iconic Hassan II Mosque is the second-largest mosque in Africa, and
+                                        one of few open to non-Muslims (through selected guided tours lasting around an
+                                        hour each). It can accommodate up to 25,000 worshipers and offers Muslims the
+                                        chance to pray on a glass floor, giving the unique feeling of praying directly
+                                        over the sea. Everyone is welcome to admire the beautiful piece of architecture
+                                        at any time from the spacious courtyard, which can accommodate a further 80,000
+                                        people.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="py-4">
+                                <h4 class="pb-3" style="font-variant: small-caps;">More info :</h4>
+                                <i class="bi bi-arrow-up-right-square-fill"></i> <a
+                                    class="text-decoration-none text-secondary"
+                                    href="https://www.google.com/maps?cid=7467485059611676786"><span
+                                        class="fw-bold fs-5">See
+                                        where it is in Google Maps</span>
+                                </a>
+
+                                <h6 class="pt-3 fs-5"><i class="bi bi-geo-alt-fill"></i>Boulevard de la Corniche,
+                                    Casablanca,
+                                    Casablanca-Settat, 20000, Morocco</h6>
+                            </div>
+                        </div>
+
+                        <div class="tab-pane fade" id="pills-mall" role="tabpanel" aria-labelledby="pills-profile-tab">
+                            <div class="row justify-content-center align-items-center">
+                                <div class="col-md-12 col-lg-8">
+                                    <img src="../assets/images/morocco-mall.jpg" class="img-fluid">
+                                </div>
+                                <div class="col-md-12 col-lg-4">
+                                    <p class="lh-lg pt-2 fs-5">Located at the end of La Corniche area is Morocco Mall,
+                                        the biggest
+                                        shopping centre in Africa. A modern hub, Morocco Mall offers enough to entertain
+                                        anyone, whether you’re with the whole family or travelling as a couple, for the
+                                        whole day. On top of the extensive range of shops, offering anything from H&M to
+                                        Dior, and a vast range of food options, Morocco Mall also hosts an indoor
+                                        aquarium, complete with a small shark, a fountain display outside and even
+                                        indoor ice skating and an indoor fairground. There really is something for
+                                        everyone. For a taste of old Morocco, there’s even an indoor souk (market), but
+                                        the Old Medina is the place to go in Casablanca for a more traditional
+                                        experience.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="py-4">
+                                <h4 class="pb-3" style="font-variant: small-caps;">More info :</h4>
+                                <i class="bi bi-arrow-up-right-square-fill"></i> <a
+                                    class="text-decoration-none text-secondary"
+                                    href="https://goo.gl/maps/BsnSfjNkPLEJvwEy6"><span class="fw-bold fs-5">See
+                                        where it is in Google Maps</span>
+                                </a>
+
+                                <h6 class="pt-3 fs-5"><i class="bi bi-geo-alt-fill"></i>Angle Boulevard Sidi
+                                    Abderrahmane, Bd de Biarritz, Casablanca</h6>
+                            </div>
+
+                        </div>
+                        <div class="tab-pane fade" id="pills-corniche" role="tabpanel"
+                            aria-labelledby="pills-contact-tab">
+                            <div class="row justify-content-center align-items-center">
+                                <div class="col-md-12 col-lg-8">
+                                    <img src="../assets/images/corniche_-Casablanca6.jpg" class="img-fluid">
+                                </div>
+                                <div class="col-md-12 col-lg-4">
+                                    <p class="lh-lg pt-2 fs-5">Located at the end of La Corniche area is Morocco Mall,
+                                        the biggest
+                                        shopping centre in Africa. A modern hub, Morocco Mall offers enough to entertain
+                                        anyone, whether you’re with the whole family or travelling as a couple, for the
+                                        whole day. On top of the extensive range of shops, offering anything from H&M to
+                                        Dior, and a vast range of food options, Morocco Mall also hosts an indoor
+                                        aquarium, complete with a small shark, a fountain display outside and even
+                                        indoor ice skating and an indoor fairground. There really is something for
+                                        everyone. For a taste of old Morocco, there’s even an indoor souk (market), but
+                                        the Old Medina is the place to go in Casablanca for a more traditional
+                                        experience.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="py-4">
+                                <h4 class="pb-3" style="font-variant: small-caps;">More info :</h4>
+                                <i class="bi bi-arrow-up-right-square-fill"></i> <a
+                                    class="text-decoration-none text-secondary"
+                                    href="https://goo.gl/maps/vKGtnuWDjgS13Bxx5"><span class="fw-bold fs-5">See
+                                        where it is in Google Maps</span>
+                                </a>
+
+                                <h6 class="pt-3 fs-5"><i class="bi bi-geo-alt-fill"></i>Bd de l'Océan Atlantique,
+                                    Casablanca</h6>
+                            </div>
+
+
+                        </div>
+                        <div class="tab-pane fade" id="pills-medina" role="tabpanel"
+                            aria-labelledby="pills-contact-tab">
+                            <div class="row justify-content-center align-items-center">
+                                <div class="col-md-12 col-lg-8">
+                                    <img src="../assets/images/old-medina.jpg" class="img-fluid">
+                                </div>
+                                <div class="col-md-12 col-lg-4">
+                                    <p class="lh-lg pt-2 fs-5">Step back in time and stroll through the streets of the
+                                        Old Medina, the pre-20th-century city frozen in time. Remnants of the old city
+                                        walls and forts can still be seen, and the narrow alleyways have remained the
+                                        same for hundreds of years.
+
+                                        Much of this historic centre is now a bazaar; artisans selling leather goods,
+                                        oils, linens, shoes and spices, or even antiques passed down by their ancestors.
+                                        You’ll have to barter, but most vendors offer reasonable prices or are willing
+                                        to negotiate. Here you’ll also find various outdoor cafes and smaller
+                                        restaurants, so enjoy a coffee or tea while watching the locals go about their
+                                        daily life.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="py-4">
+                                <h4 class="pb-3" style="font-variant: small-caps;">More info :</h4>
+                                <i class="bi bi-arrow-up-right-square-fill"></i> <a
+                                    class="text-decoration-none text-secondary"
+                                    href="https://www.google.com/maps?cid=12787254037011330828"><span
+                                        class="fw-bold fs-5">See
+                                        where it is in Google Maps</span>
+                                </a>
+
+                                <h6 class="pt-3 fs-5"><i class="bi bi-geo-alt-fill"></i>26 Pl. des Nations Unies,
+                                    Casablanca 20100</h6>
+                            </div>
+
+                        </div>
+                        <div class="tab-pane fade" id="pills-habbous" role="tabpanel"
+                            aria-labelledby="pills-contact-tab">
+                            <div class="row justify-content-center align-items-center">
+                                <div class="col-md-12 col-lg-8">
+                                    <img src="../assets/images/habbous.PNG" class="img-fluid">
+                                </div>
+                                <div class="col-md-12 col-lg-4">
+                                    <p class="lh-lg pt-2 fs-5">The Habous district offers a total immersion in the
+                                        Casablanca of yesteryear, rich in history and traditions. In its narrow streets,
+                                        lined with stalls and bazaars, time seems to have stood still. With its
+                                        typically Moroccan architecture, the Habous district was intended to accommodate
+                                        families of traders from various regions of Morocco.
+
+                                        Thus the new medina, as it is called, was built perfectly in line with the style
+                                        of a classic medina, by combining Moroccan tradition and modern town planning
+                                        rules. Which makes it a unique example in terms of architecture.
+                                </div>
+                            </div>
+                            <div class="py-4">
+                                <h4 class="pb-3" style="font-variant: small-caps;">More info :</h4>
+                                <i class="bi bi-arrow-up-right-square-fill"></i> <a
+                                    class="text-decoration-none text-secondary"
+                                    href="https://goo.gl/maps/yGd8oh3k8TqwaxhV9"><span class="fw-bold fs-5">See
+                                        where it is in Google Maps</span>
+                                </a>
+
+                                <h6 class="pt-3 fs-5"><i class="bi bi-geo-alt-fill"></i>Rue Moulay Ismail,Habbous,
+                                    Casablanca</h6>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+
+    </section>
+
+    <section class="section3 my-3">
+        <div class="container xxl">
+            <h1 class="text-center pt-5 pb-3 fw-bold">Not sure about what to do in Casablanca? </h1>
+            <h2>Here are some suggestions :</h2>
+
+            <div class="row justify-content-center align-items-center ">
+                <div class="col-12 col-md-6 col-lg-6 section3-div1">
+                    <h2 class=" text-center pb-3">1. Stay in a Lavish Hotel on the Beach </h2>
+                    <p class="fs-4 fw-bold"> Situated right on the Atlantic ocean and offering stunning views of the
+                        sea, the
+                        Four Seasons
+                        Hotel Casablanca is the perfect retreat from this bustling city. Offering 185 lavish guest
+                        rooms including 29 immaculate suites, the hotel is small enough to offer guests a more
+                        personalized experience and cater to their every need.
+                    </p>
+                </div>
+                <div class="col-12 col-md-6 col-lg-6 section3-div2">
+                    <h2 class=" text-center pb-3">2. Have a Drink at Rick’s Cafe </h2>
+                    <p class="fs-4">How can you visit Casablanca without a stop at the bar that was modeled after
+                        “Rick’s
+                        Café
+                        Américain” from the classic movie starring Humphrey Bogart and Ingrid Bergman? The
+                        restaurant sits inside of the walls of the Old Medina and the details inside of this
+                        fabulous mansion are reminiscent of those in the film. A 1930’s piano fills the bar with
+                        classic tunes, making you feel like you’ve stepped back in time and onto a movie set!
+                    </p>
+                </div>
+                <div class="col-12 col-md-6 col-lg-6 section3-div3">
+                    <h2 class=" text-center pb-3">3. Stroll Along The Corniche </h2>
+                    <p class="fs-4 fw-bold">The Corniche is an oceanfront neighborhood just south of the Four Seasons
+                        Casablanca
+                        that is
+                        filled with nightclubs and cafes with views of the ocean. Enjoy a peaceful afternoon stroll
+                        along the boardwalk that runs alongside the beach to soak in the sun and the views. You’ll
+                        see local kids playing soccer on the beach and likely be offered a horse ride (for a cost of
+                        course).
+                        Stop at one of the cafes for a tea or bring a blanket and lounge in the sand. It’s the
+                        perfect respite from the busy city.
+                    </p>
+                </div>
+                <div class="col-12 col-md-6 col-lg-6 section3-div4">
+                    <h2 class=" text-center pb-3">4. Try the Delectable Moroccan Cuisine </h2>
+                    <p class="fs-4">Casablanca has some truly amazing food options around the city and below are just a
+                        few of our favorites.
+
+                        We loved the ambiance of the Mint at the Four Seasons Casablanca. The terrace has a gorgeous fit
+                        pit, comfortable seating areas, and beautiful views of the sea. This is an ideal spot just to
+                        lounge and drink tea when you need some time to relax. Be sure to try the assorted briouates and
+                        the lamb couscous for an afternoon snack.
+                    </p>
+                </div>
+
+                <div class="col-12 col-md-6 col-lg-6 section3-div5">
+                    <h2 class=" text-center pb-3">5. Shop in The Old and New Medinas of Casablanca </h2>
+                    <p class="fs-4 fw-bold">The shopping in Morocco is world-renowned and it’s nearly impossible to walk
+                        through
+                        one of the many souks all over the country without stopping for a look. Brightly colored
+                        blankets and scarves, leather bags of every shape and size, hand painted pottery, intricate
+                        metal lamps, and intoxicating spices will have you wishing you had brought another suitcase with
+                        you!
+                    </p>
+                </div>
+
+                <div class="col-12 col-md-6 col-lg-6 section3-div6">
+                    <h2 class=" text-center pb-3">6. Watch People at Mohamed V Square </h2>
+                    <p class="fs-4">A large fountain sits at the center of this bustling square and locals gather to
+                        watch as the water flows and birds fly overhead. Vendors selling chewy coconut macaroons provide
+                        tasty treats for children as they ride on a borrowed toy jeep through the crowd. It’s the
+                        perfect place to have a seat and watch the locals doing what they do best in Casablanca – having
+                        some good old fashioned fun with their families!
+                    </p>
+                </div>
+                <div class="col-12 col-md-6 col-lg-6 section3-div7">
+                    <h2 class=" text-center pb-3">7. Visit the Interesting Museums </h2>
+                    <p class="fs-4 fw-bold">There are several wonderful museums in the city of Casablanca that are worth
+                        checking out during your trip. These three were our favorites:
+                    </p>
+                    <ul>
+                        <li class="fs-5 text-muted">Museum of Moroccan Judaism – explore the 2000-year history of Jewish
+                            people living in
+                            Morocco in this beautiful museum. It is especially unique as it is the only Jewish history
+                            museum in the Arab world.
+                        </li>
+                        <li class="fs-5">Musée de la Fondation Abderrahman Slaoui – a stunning private collection of
+                            Moroccan arts
+                            including travel posters, ceramics, furniture, and jewelry.
+                        </li>
+                        <li class="fs-5 text-muted">Dar El Ala – this museum is perfect for the music lover!
+                            Specializing in Moroccan Andalusian
+                            music including instruments, art, and performances.
+                        </li>
+                    </ul>
+                </div>
+
+
+
+            </div>
+        </div>
+
+    </section>
+
+    <section class="section4 previousNextButtons bg-light">
+
+        <div class="container-xxl">
+            <div class="row pt-2 pb-2">
+                <div class="col-6 col-md-6 text-center">
+                    <a href="../Cities/jebha.html" class="btn btn-lg btn-outline-primary">
+                        <i class="bi bi-box-arrow-in-left"></i> Previous city
+                    </a>
+                </div>
+                <div class="col-6 col-md-6 text-center">
+                    <a href="../Cities/chefchaouen.html" class="btn btn-lg btn-outline-primary">
+                        Next city<i class="bi bi-box-arrow-in-right"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+    <footer class="footer" id="Footer1">
+        <div class="container-xl">
+            <form action="py-5">
+                <div class="row justify-content-center py-5">
+                    <div class="col-md-4 text-center">
+                        <label for="email" class="form-label fs-5"> Stay informed to our latest news!</label>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="input-group mb-4">
+                            <span class="input-group-text">
+                                <i class="bi bi-envelope-fill text-secondary"></i>
+                            </span>
+                            <input type="text" class="form-control " placeholder="Enter your E-mail address" />
+                            <!-- tooltip -->
+                            <span class="input-group-text">
+                                <span class="tt" data-bs-placement="bottom"
+                                    title="Enter an email address we can reply to.">
+                                    <i class="bi bi-question-circle text-muted"></i>
+                                </span>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="col-md-4 text-center text-md-start">
+                        <a href="" class="btn btn-primary btn-lg"> Send</a>
+                    </div>
+
+
+            </form>
+            <div class="row justify-content-center align-items-center">
+                <div class="col-md-6 text-center pt-3">
+                    <a href="" class="me-2 fs-5"><i class="bi bi-facebook"></i></a>
+                    <a href="" class="me-2 fs-5"> <i class="bi bi-youtube"></i></a>
+                    <a href="" class="me-2 fs-5"><i class="bi bi-twitter"></i> </a>
+                    <a href="" class="me-2 fs-5"> <i class="bi bi-instagram"></i></a>
+                    <a href="" class="me-2 fs-5"> </a>
+                </div>
+
+            </div>
+        </div>
+        <div class="container-xl pb-5">
+            <div class="row grid-footer ">
+                <div class="col-md-6 col-lg-3 text-center text-md-start">
+                    <h3 class="pb-4">DISCOVER MOROCCO </h3>
+                    <a href="">
+                        <p>History and geography</p>
+                    </a>
+                    <a href="">
+                        <p>Eco-friendly Travel in Morocco </p>
+                    </a>
+                    <a href="">
+                        <p>Contemporary Morocco</p>
+                    </a>
+                    <a href="">
+                        <p>UNESCO World Heritage Site </p>
+                    </a>
+                    <a href="">
+                        <p>Blog</p>
+                    </a>
+
+                </div>
+                <div class="col-md-6 col-lg-3 text-center text-md-start">
+                    <h3 class="pb-4">Cities to visit </h3>
+                    <a href="">
+                        <p>Casablanca</p>
+                    </a>
+                    <a href="">
+                        <p>Marrakech </p>
+                    </a>
+                    <a href="">
+                        <p>Agadir</p>
+                    </a>
+                    <a href="">
+                        <p>Tangier </p>
+                    </a>
+                    <a href="">
+                        <p>Merzouga</p>
+                    </a>
+                </div>
+                <div class="col-md-6 col-lg-3 text-center text-md-start">
+                    <h3 class="pb-4">Experiences </h3>
+                    <a href="">
+                        <p>Suggested tours</p>
+                    </a>
+                    <a href="">
+                        <p>Beach </p>
+                    </a>
+                    <a href="">
+                        <p>Shopping</p>
+                    </a>
+                    <a href="">
+                        <p>Sport </p>
+                    </a>
+                    <a href="">
+                        <p>Wellness</p>
+                    </a>
+                    <a href="">
+                        <p>Culture </p>
+                    </a>
+                    <a href="">
+                        <p>Nature</p>
+                    </a>
+
+                </div>
+                <div class="col-md-6 col-lg-3 text-center text-md-start">
+                    <h3 class="pb-4"> TRAVEL INFO</h3>
+                    <a href="">
+                        <p>Getting around Morocco</p>
+                    </a>
+                    <a href="">
+                        <p>Accomodation</p>
+                    </a>
+                    <a href="">
+                        <p>Getting to Morocco </p>
+                    </a>
+                    <a href="">
+                        <p>Food & drinks</p>
+                    </a>
+                    <a href="">
+                        <p>Iconic things </p>
+                    </a>
+                    <a href="">
+                        <p>Contact us</p>
+                    </a>
+                </div>
+            </div>
+            <div class="container-xl">
+                <p class="text-end">Copyright © 2021, website created by <span class="fw-bold"
+                        style="font-variant: small-caps;">Abdelmounim
+                        SIFELHAK</span></p>
+            </div>
+
+
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+        crossorigin="anonymous"></script>
+    <script>
+        const tooltips = document.querySelectorAll('.tt')
+        tooltips.forEach(t => {
+            new bootstrap.Tooltip(t)
+        })
+    </script>
+</body>
+
+</html>

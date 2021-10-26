@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url(../navbarFooterStyle.css);
+
+
+.section1{
+    background: url(../assets/images/Carousel-images/North/chefchaouenpage/Maroc.jpg) no-repeat fixed center/cover;
+    font-family: Amiri;
+}
+.section1:hover{
+    opacity: .9; 
+}
+
+.section1 .inner-section1 h1:hover, h3:hover , p:hover{
+color: #a8d8f0;
+}
+.section1 .Citytitle{
+    font-size: 80px;
+}
+
+.section2{
+    background: url(../assets/images/Carousel-images/North/chefchaouenpage/chaouen\ 2.jpeg) no-repeat fixed center/cover;
+    font-family: Amiri;
+}
+.section2 h2{
+color: #241571;
+font-weight: bold
+}
+.section2 p{
+    color:#151e3d ;
+}
+.section2 p:hover{
+    color: white;
+}
+
+@media screen and (max-width:500px){
+    .section1 .Citytitle{
+        font-size: 60px;
+    }
+}
