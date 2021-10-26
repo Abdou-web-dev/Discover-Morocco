@@ -1,0 +1,212 @@
+@import url('https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Marcellus&display=swap');
+
+body{
+    position: relative;
+}
+#firsth1:hover{
+    color: white;
+    font-size: 90px;
+    transition: .6s ease;
+
+}
+
+nav{
+    font-family:Maven Pro ;
+}
+
+#scrollspyHeading1{
+    font-family:Maven Pro ;
+}
+#scrollspyHeading2{
+    font-family:Marcellus ;
+    background-color: #9b765352;
+}
+#scrollspyHeading3{
+    font-family:Maven Pro ;
+    background-color: lightgrey;
+}
+#scrollspyHeading4{
+    font-family: Marcellus;
+    background-color: #9b765352;
+}
+#scrollspyHeading5{
+    font-family:Maven Pro ;
+    background-color:rgba(211, 211, 211, 0.493);
+}
+#scrollspyHeading6{
+    font-family: Marcellus;
+    background-color:#9b76532f;
+}
+nav:hover{
+    filter: invert(.1);
+}
+
+#navbar1{
+    background-color: #333333;
+}
+nav a.navbar-brand{
+    color: black;
+}
+#navbar1 ul li a.nav-link {
+    font-variant: small-caps;
+    color: white;
+}
+
+#navbar1 ul li a.nav-link:hover {
+    font-variant: small-caps;
+    color: black;
+}
+
+nav a.navbar-brand:hover{
+    color: white;
+}
+
+.div-collapse div div div a:hover{
+    transform: scale(1.5);
+}
+
+.div-collapse div div div .collapse p.p1:hover{
+    font-weight: bolder;
+}
+
+.div-collapse div div div .collapse:hover{
+    filter: invert(1);
+}
+
+.div-collapse div div div .collapse div.no_stars:hover{
+    transform: scale(1.5);
+}
+
+.div-collapse div div div button:hover{
+    transform: scale(1.2);
+}
+
+#scrollspyHeading1{
+    background-color: #59788e;
+}
+#scrollspyHeading1:hover{  
+      background-color: #59788e9f;
+
+}
+#scrollspyHeading1 img:hover, #scrollspyHeading2 img:hover, #scrollspyHeading3 img:hover, #scrollspyHeading4 img:hover, #scrollspyHeading5 img:hover, #scrollspyHeading6 img:hover{
+    transform: scale(1.5);
+    transition: .6s ease;
+}
+
+/* Code for showing images on hover in the nav */
+
+#navbar1 ul li a {
+    position:relative; 
+   }
+#navbar1 ul li a span { 
+   position:absolute;
+    display:none; 
+    z-index:99; 
+}
+
+#navbar1 ul li a:hover span { 
+   display:block;
+   transition: 2s ease;
+   position: absolute;
+   top: 50px;
+   right: -60px;
+}
+#navbar1 ul li a:hover span.home { 
+    display:block;
+    position: absolute;
+    left: 20px;
+    top: -20px;
+ }
+
+
+ /* the overlay color on top of the images */
+
+ .overlay0 {
+    position: relative;
+    background: #9b765344;
+    display: inline-block;
+  }
+  
+  .overlay0::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: #B7410E; /* rust color*/
+    opacity: 0.1;
+    transition: .5s ease;
+  }
+  
+  .overlay0:hover::before {
+    opacity: 0.4;
+  }
+
+  /* *********** */
+ .overlay1 {
+    position: relative;
+    /* background: #9b765344; */
+    display: inline-block;
+  }
+  
+  .overlay1::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: #3d9f88; /* marine green color*/
+    opacity: 0.1;
+    transition: .5s ease;
+  }
+  
+  .overlay1:hover::before {
+    opacity: 0.45;
+  }
+
+/* ********** */
+.overlay2 {
+    position: relative;
+    /* background: #9b765344; */
+    display: inline-block;
+  }
+  
+  .overlay2::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: #dac17c; /* sand castle color*/
+    opacity: 0.1;
+    transition: .5s ease;
+  }
+  
+  .overlay2:hover::before {
+    opacity: 0.45;
+  }
+
+
+
+@media screen and (max-width:600px){
+    .div-collapse div div div button, .div-collapse div div div a{
+        margin-bottom: 10px;
+    }
+}
+
+
+@media screen and (max-width:1000px){
+ #scrollspyHeading1 h1{
+     margin-top: 50px;
+ }
+}
+
+@media screen and (max-width:550px){
+    #scrollspyHeading1 h1{
+        margin-top: 100px;
+    }
+   }
